@@ -31,7 +31,7 @@ module Test =
         let infParam = InferenceParams()
         
         infParam.Temperature <- 0.6f
-        infParam.AntiPrompts <- [ "user:" ]
+        infParam.AntiPrompts <- [ "User:" ]
         
         while true do
             
