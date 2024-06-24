@@ -26,7 +26,7 @@ module Test =
         let session = ChatSession(ex)
         
         let hideWords = LLamaTransforms.KeywordTextOutputStreamTransform([ "User:"; "Bot: " ])
-        session.WithOutputTransform(hideWords)
+        session.WithOutputTransform(hideWords) |> ignore
         
         let infParam = InferenceParams()
         
