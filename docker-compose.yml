@@ -1,0 +1,6 @@
+﻿services:
+  funkyllama.cli:
+    image: funkyllama.cli
+    build:
+      context: .
+      dockerfile: FunkyLlama.CLI/Dockerfile
