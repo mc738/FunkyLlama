@@ -9,7 +9,7 @@ open LLama.Common
 open LLama.Native
 open Microsoft.FSharp.Control
 
-module Test =
+module Example =
     
     let run () =
         let modelPath = "/home/max/Data/LLMs/llama_2/Llama-2-7b-chat-hf-finetune-q5_k_m-v1.0.gguf"
@@ -51,4 +51,4 @@ module Test =
         ()
 
 
-Test.run ()
+Example.run ()
